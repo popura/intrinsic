@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "intrinsic"
+version = "0.1.0"
+description = ""
+authors = ["Yuma Kinoshita <ykinoshita@tmu.ac.jp>"]
+
+[tool.poetry.dependencies]
+python = "^2.7"
+Pillow = "2.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

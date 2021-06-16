@@ -1,0 +1,130 @@
+[[package]]
+name = "cython"
+version = "0.19.2"
+description = "The Cython compiler for writing C extensions for the Python language."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "numpy"
+version = "1.8.0"
+description = "NumPy: array processing for numbers, strings, records, and objects."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "pillow"
+version = "2.7.0"
+description = "Python Imaging Library (Fork)"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "scikit-image"
+version = "0.9.3"
+description = "Image processing routines for SciPy"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "scikit-learn"
+version = "0.14.1"
+description = "A set of python modules for machine learning and data mining"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "scipy"
+version = "0.13.2"
+description = "SciPy: Scientific Library for Python"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^2.7"
+content-hash = "4752652ebd2e327afa8c197f3c5e64b14524fd68c4b7efc275c9276ca89c3df1"
+
+[metadata.files]
+cython = [
+    {file = "Cython-0.19.2-cp26-cp26mu-manylinux1_x86_64.whl", hash = "sha256:8ca401fab8660abbdedd71b36d2e558296d29fc5affa10b5e9cfe88b31921d7d"},
+    {file = "Cython-0.19.2-cp27-cp27m-manylinux1_x86_64.whl", hash = "sha256:4a96ade1ee7848bfa26738807add1ae28d706d3e4810da71e0a22491b8051af6"},
+    {file = "Cython-0.19.2-cp27-cp27mu-manylinux1_x86_64.whl", hash = "sha256:c09208b563d2129d0b0dd8e00b35b6ddc3141b881605a72f36a884ed52f4231d"},
+    {file = "Cython-0.19.2-cp33-cp33m-manylinux1_x86_64.whl", hash = "sha256:f318b3668e279d913efe9a7dbfa3be90a3f5c7d9dfa0cc053c69e94c83dd7ff0"},
+    {file = "Cython-0.19.2-cp34-cp34m-manylinux1_x86_64.whl", hash = "sha256:940f628cc500a52e82153a80c26476ccc2738a965a188068d6d8c2ae8be9c9ee"},
+    {file = "Cython-0.19.2-cp35-cp35m-manylinux1_x86_64.whl", hash = "sha256:13a0d5aa42b609e8e201dc0ea2f103b720178cd2bc675a22eae0e4fdd97d227e"},
+    {file = "Cython-0.19.2.tar.gz", hash = "sha256:c5b55b0bd40e23a9cbcd2c1bdefe9771fc5836938acef772795813a6f6432c48"},
+    {file = "Cython-0.19.2.zip", hash = "sha256:9e792819aa78ba054cbb0a74a03488554978ca6c345d521f53d5eee45311bbf6"},
+]
+numpy = [
+    {file = "numpy-1.8.0-cp26-cp26m-manylinux1_x86_64.whl", hash = "sha256:1688709ed36f6064f92bdb446a291340910bcc7a7da1496041c56fc8c210239c"},
+    {file = "numpy-1.8.0-cp26-cp26mu-manylinux1_x86_64.whl", hash = "sha256:2d19a86e3af82c19bc85cabe33d8fa2039fab86554297a0a967cf5f1b7868189"},
+    {file = "numpy-1.8.0-cp27-cp27m-manylinux1_x86_64.whl", hash = "sha256:02f43ea7097b3d8869a1367e04ff51a1320903c57aed12939670277b900065cd"},
+    {file = "numpy-1.8.0-cp27-cp27mu-manylinux1_x86_64.whl", hash = "sha256:e6d1db33fb074b28b0485133428e41f4c2f5785f9305fca11fa56e6250e21646"},
+    {file = "numpy-1.8.0-cp33-cp33m-manylinux1_x86_64.whl", hash = "sha256:aca94585efd9fb682bc3fee5218656f2c05bfad84753a304fa7cb80086ad1a26"},
+    {file = "numpy-1.8.0-cp34-cp34m-manylinux1_x86_64.whl", hash = "sha256:fdf91cf94463360f33d418c07821ac86e9f0eb26cdfcc9e722541c50fa3cc7fd"},
+    {file = "numpy-1.8.0.tar.gz", hash = "sha256:2764d0819acc77e9ff81b060fe7f69530b0d85c26ac9d162639b787cb227d253"},
+    {file = "numpy-1.8.0.zip", hash = "sha256:dbb94a197228f55f1e3177e6bcdd301eb5204b4ff241f5a1cae5a8fd21d2494c"},
+]
+pillow = [
+    {file = "Pillow-2.7.0-cp26-none-win32.whl", hash = "sha256:c20881b6a8bebb32e7e396954bd44214ea91326a78952f20474ee6747cf235b0"},
+    {file = "Pillow-2.7.0-cp26-none-win_amd64.whl", hash = "sha256:bc803e417ded2e073775fe4ee99d9fe9958691b1ff2b085df45b627cff361aab"},
+    {file = "Pillow-2.7.0-cp27-none-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl", hash = "sha256:01047449bc6e46792217fe62deba683979a60b33de7efd99ed564cf43907021b"},
+    {file = "Pillow-2.7.0-cp27-none-win32.whl", hash = "sha256:b314088190cc9af4604544521517528fb0f7842ab08233daa89f0526a34ae285"},
+    {file = "Pillow-2.7.0-cp27-none-win_amd64.whl", hash = "sha256:d75388537a4b550418c8e0c5b35fd8d1a7cf8658f8119a2ed2ad5b45e16dce92"},
+    {file = "Pillow-2.7.0-cp32-cp32m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl", hash = "sha256:228f73c20509f5dc61e59680376bab0ab2fffec05b25518d83c08ba0b0d4847b"},
+    {file = "Pillow-2.7.0-cp32-none-win32.whl", hash = "sha256:281bdd4e109be0717086e7c4cc63a788f557288ba60f31a5c47ba3f373bb8ee9"},
+    {file = "Pillow-2.7.0-cp32-none-win_amd64.whl", hash = "sha256:cd443b284749a5d0ea9723f455feef1678240dca22e77a54f5d37da3c567409c"},
+    {file = "Pillow-2.7.0-cp33-cp33m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl", hash = "sha256:4534d8d341f35fe9bfd77d49832341f7102f5e2a08086b57a501b4bf6c20ee73"},
+    {file = "Pillow-2.7.0-cp33-none-win32.whl", hash = "sha256:7c06292b5ea7acf46656852c3b6fb3fd71ede5ceab3591efe64d1997447096e1"},
+    {file = "Pillow-2.7.0-cp33-none-win_amd64.whl", hash = "sha256:a60e48be5bc6ba4e9a269c3fa1599e022b63946e568382ab438ceac3d259452c"},
+    {file = "Pillow-2.7.0-cp34-cp34m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl", hash = "sha256:f2f46ccd499cb433c32ce136fc096f858deb5c9129d64772000a94fc57af1a77"},
+    {file = "Pillow-2.7.0-cp34-none-win32.whl", hash = "sha256:e867d1bf02a53e05aa6e57261f8dbdd83cbfdbdeb1531c205952ff52b16f5d16"},
+    {file = "Pillow-2.7.0-cp34-none-win_amd64.whl", hash = "sha256:ec1ca32b0dacbf8f81e698f1616c89e841dc566c2236805cd108407bf664e306"},
+    {file = "Pillow-2.7.0-py2.6-win-amd64.egg", hash = "sha256:6ab873269450a0e93e2ab538bcffd3e8af69d138cce4464d0bb3b12d83f5040f"},
+    {file = "Pillow-2.7.0-py2.6-win32.egg", hash = "sha256:a534c904f72d16b9751847ad2c3532ac1bbf18dfb7d0cc6fa1f06b6b346f7c01"},
+    {file = "Pillow-2.7.0-py2.7-win-amd64.egg", hash = "sha256:cf05b8aadfb459a1a3155c839b4704e226d0b10cb64b092d55ddf817fa99f95a"},
+    {file = "Pillow-2.7.0-py2.7-win32.egg", hash = "sha256:5b37c00e252498a939cee44bb0955e02f8ab556550456fa6cf649554b01ed43c"},
+    {file = "Pillow-2.7.0-py3.2-win-amd64.egg", hash = "sha256:3c1d5f03752b20dbc5f615ab780667ed55e0fcb88d7c6367989dcd8d5b5aafd6"},
+    {file = "Pillow-2.7.0-py3.2-win32.egg", hash = "sha256:f1680ac173e56e6da980eee40dfe8e7eca4f69fbf1c24b68db0d753b2a6f1541"},
+    {file = "Pillow-2.7.0-py3.3-win-amd64.egg", hash = "sha256:93c97f5c10480aa93ca9c85013373273465d35f11491a0c9f101a9f78465ecd9"},
+    {file = "Pillow-2.7.0-py3.3-win32.egg", hash = "sha256:8d52fae1ea740ef0e2969360c3cc81feeeb89db5c6138b525f4cc61dad8fdde9"},
+    {file = "Pillow-2.7.0-py3.4-win-amd64.egg", hash = "sha256:96bbb100e852726efbd0460e1a1bc6d76755fd92501952aedc0906bced43e453"},
+    {file = "Pillow-2.7.0-py3.4-win32.egg", hash = "sha256:4d4ae9f943667082af02063e28cb8f96af07dc47948d0d6b57af5eed2adee262"},
+    {file = "Pillow-2.7.0.tar.gz", hash = "sha256:26e9320e73f5821826b6b2408a3bff0a8c29e45159530069a117efd39ef619f8"},
+    {file = "Pillow-2.7.0.win-amd64-py2.6.exe", hash = "sha256:5ea4a46d25a6fb549cb77f8b3e01e7361c8bc7ef09d20c2497bfcbb966bf4e4c"},
+    {file = "Pillow-2.7.0.win-amd64-py2.7.exe", hash = "sha256:e3de716a36d041d21dc85dbb52999a0dd7e5e70b131e7eed152f4b8b0a547d52"},
+    {file = "Pillow-2.7.0.win-amd64-py3.2.exe", hash = "sha256:48c88eb8f4a466fbae6985aec045f822f5127aa41d1a143b91daccf5d8419466"},
+    {file = "Pillow-2.7.0.win-amd64-py3.3.exe", hash = "sha256:623e2140847b214f3d08a2a43a7788b270a4f8e6fdb1c1de06c5576fe80ce8c7"},
+    {file = "Pillow-2.7.0.win-amd64-py3.4.exe", hash = "sha256:c2818dfa2e62bcc34fe4a7316cd39eace771ba13bf256d414b7db7437dfb4e09"},
+    {file = "Pillow-2.7.0.win32-py2.6.exe", hash = "sha256:384aa84bf7f7711c9dc08c9140a7d2af8bead8846ebb0ee5e203be2eb7d18cf1"},
+    {file = "Pillow-2.7.0.win32-py2.7.exe", hash = "sha256:02915befcd033b09c74e1ec65e1b3d4bd0a6013094d7b4f4e0cce9d6f2c5ef06"},
+    {file = "Pillow-2.7.0.win32-py3.2.exe", hash = "sha256:a7c642ee6ebb9937daab9816cf9510dd4f4e7f0c4c76a3866d29f37b82be1011"},
+    {file = "Pillow-2.7.0.win32-py3.3.exe", hash = "sha256:0b2d7f2b2ae3ad82cdd9210a88302f19018a525eda6f883480c3e18eb8b78145"},
+    {file = "Pillow-2.7.0.win32-py3.4.exe", hash = "sha256:50aa696b8ad1ba23cdf6b3eaa9e0290345a9bcd9273e9f78710b9ebbe69d9289"},
+    {file = "Pillow-2.7.0.zip", hash = "sha256:33a5d0145e82326e781ddee1ad375f92cb84f8cfafea56e9504682adff64a5ee"},
+]
+scikit-image = [
+    {file = "scikit-image-0.9.3.tar.gz", hash = "sha256:2c29c65aacdfc056efd0a3b713b5dde666356ffb39e5e2bad3e0d6dbb62524b3"},
+]
+scikit-learn = [
+    {file = "scikit-learn-0.14.1.tar.gz", hash = "sha256:34821b8f460bdb7aba8eb882353bacbd01671bfb8057649ffcdce7f7ffa4a21d"},
+    {file = "scikit-learn-0.14.1.win32-py2.6.exe", hash = "sha256:574d400bced43498988f1b8d4d49d497d592d882255149bad187968b4b994951"},
+    {file = "scikit-learn-0.14.1.win32-py2.7.exe", hash = "sha256:3d70749d767879f53682d612c0eed54803171433166dde20eb8f86d8bd7ccf39"},
+    {file = "scikit-learn-0.14.1.win32-py3.3.exe", hash = "sha256:d0a223cf7a3e82ad56d15deaff689db6fbbc29c7da05d3841830d15858c9fda7"},
+]
+scipy = [
+    {file = "scipy-0.13.2-cp26-cp26mu-manylinux1_x86_64.whl", hash = "sha256:9c3e71716d16622c645d1ebcb6394092ab5d4fae906aa3ba8ca5375008625608"},
+    {file = "scipy-0.13.2-cp27-cp27m-manylinux1_x86_64.whl", hash = "sha256:1da7cc9b99d4941c16d6ab5db8c6ac3dc0295aa078145c23ff46c1ff760cb9a5"},
+    {file = "scipy-0.13.2-cp27-cp27mu-manylinux1_x86_64.whl", hash = "sha256:2c83d8f0c00075594077e4e37ea62bf02e1ce79cd8507d50adccf79a2ae87460"},
+    {file = "scipy-0.13.2-cp33-cp33m-manylinux1_x86_64.whl", hash = "sha256:650d2619be88866b963736fea735c59a3ced3ddd22ce63e1287b7596abd79137"},
+    {file = "scipy-0.13.2-cp34-cp34m-manylinux1_x86_64.whl", hash = "sha256:becb0666d34fd9f91b49a21d10f3407b5dab8b84c310e44cdcc426aa23ebc04c"},
+    {file = "scipy-0.13.2.tar.gz", hash = "sha256:485f194c7fe46da92e63bff524346ccaed4040c27df536bbde7b1edc9a07b449"},
+    {file = "scipy-0.13.2.zip", hash = "sha256:a54e274da3df17029e64aab3ad8177f2f71fc9539f8bad38dbc6800a13d2ab8d"},
+]
